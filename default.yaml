@@ -32,6 +32,9 @@ licensing:
       - yocto-queue
       # false positive: reported als "GPL-2.0-or-later", ist aber MIT
       - load-script
+      # runs under BSD License or GNU General Public License (GPL) Version 2
+      # using BSD License
+      - node-forge
 
 secretscanning:
   level: all
