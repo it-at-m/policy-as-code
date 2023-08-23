@@ -12,3 +12,7 @@ This repository contains the default it@M policy for the GitHub Action [advanced
     policy: it-at-m/policy-as-code
     policy-path: default.yaml
 ```
+
+## False Positives
+
+If you discover a "false positive" for license compliance checks for a specific library, feel free to open a PR whichs adds the library [to the ignore list](https://github.com/it-at-m/policy-as-code/blob/main/default.yaml#L24). Please also include a comment for why this is a "false positive". 
