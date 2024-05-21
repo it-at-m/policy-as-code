@@ -35,6 +35,8 @@ licensing:
       # runs under BSD License or GNU General Public License (GPL) Version 2
       # it@m is using BSD License (see also https://github.com/digitalbazaar/forge/blob/main/LICENSE)
       - node-forge
+      # false positive: wird während des Build benutzt, ist aber nich Teil der Software
+      - com.puppycrawl.tools:checkstyle
 
 secretscanning:
   level: all
