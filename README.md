@@ -1,3 +1,9 @@
+# Deprecation notice
+
+We no longer use [advanced-security/policy-as-code](https://github.com/advanced-security/policy-as-code) for license compliance checking. Please see <https://opensource.muenchen.de/licenses.html#check-and-document> for instructions on how to use GitHubs Dependency Review for this purpose.
+
+**This repository is no longer maintained.**
+
 # it@M Policy for policy-as-code
 
 This repository contains the default it@M policy for the GitHub Action [advanced-security/policy-as-code](https://github.com/advanced-security/policy-as-code) for compliance checks.
